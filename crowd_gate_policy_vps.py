@@ -11,8 +11,8 @@ No winner/loser labels used in any gate condition.
 
 Usage:
     python3 crowd_gate_policy_vps.py \
-        --history /home/polybot/polymarket-bot/market_history.jsonl \
-        --recap   /home/polybot/polymarket-bot/market_recap_history.jsonl \
+        --history ./market_history.jsonl \
+        --recap   ./market_recap_history.jsonl \
         --out     crowd_gate_policy_report.json
 """
 import json, math, argparse, sys, time

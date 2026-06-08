@@ -9,7 +9,7 @@ Works symmetrically for both UP-dominant and DN-dominant markets.
 
 Usage:
     python3 crowd_gate_analysis_vps.py \
-        --history /home/polybot/polymarket-bot/market_history.jsonl \
+        --history ./market_history.jsonl \
         --out     crowd_gate_report.json
 """
 

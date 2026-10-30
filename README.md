@@ -48,3 +48,8 @@ Read-only; no credentials required. Both JSONL inputs come from the private `pol
 
 - `market_history.jsonl`: per-market features, including the `skip_counterfactuals` T-200..T-30 snapshots (crowd side/conviction, winner ask, loser bid, BN delta) and `market_wide` stats.
 - `market_recap_history.jsonl`: per-fire records (`side`, `entry_price`, `hypo_pnl`, gate-hold flags) for PnL simulation.
+
+## Feedback
+
+Suggestions, improvements, or something not working? Please
+[open an issue](https://github.com/needmoneyforhoes/crowd-conviction-gate-calibration/issues/new). Pull requests are welcome too.
